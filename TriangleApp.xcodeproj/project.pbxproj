@@ -15,7 +15,6 @@
 		55D303DF27167C7B0011FBA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D303DD27167C7B0011FBA4 /* LaunchScreen.storyboard */; };
 		55D303EA27167C7B0011FBA4 /* TriangleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D303E927167C7B0011FBA4 /* TriangleAppTests.swift */; };
 		55D303F427167C7B0011FBA4 /* TriangleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D303F327167C7B0011FBA4 /* TriangleAppUITests.swift */; };
-		55D303F627167C7B0011FBA4 /* TriangleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D303F527167C7B0011FBA4 /* TriangleAppUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		55D303E927167C7B0011FBA4 /* TriangleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleAppTests.swift; sourceTree = "<group>"; };
 		55D303EF27167C7B0011FBA4 /* TriangleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriangleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D303F327167C7B0011FBA4 /* TriangleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleAppUITests.swift; sourceTree = "<group>"; };
-		55D303F527167C7B0011FBA4 /* TriangleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				55D303F327167C7B0011FBA4 /* TriangleAppUITests.swift */,
-				55D303F527167C7B0011FBA4 /* TriangleAppUITestsLaunchTests.swift */,
 			);
 			path = TriangleAppUITests;
 			sourceTree = "<group>";
@@ -276,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55D303F627167C7B0011FBA4 /* TriangleAppUITestsLaunchTests.swift in Sources */,
 				55D303F427167C7B0011FBA4 /* TriangleAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
